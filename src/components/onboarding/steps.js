@@ -218,13 +218,13 @@ export const steps = t => ([
     position: 'right',
     style: styles.step,
   },
-  {
-    title: t('Access extra features'),
-    text: t('Change account settings, enable delegate voting and repeat the onboarding here.'),
-    selector: '.more-menu',
-    position: 'right',
-    style: styles.step,
-  },
+  // {
+  //   title: t('Access extra features'),
+  //   text: t('Change account settings, enable delegate voting and repeat the onboarding here.'),
+  //   selector: '.more-menu',
+  //   position: 'right',
+  //   style: styles.step,
+  // },
   {
     title: t('You’ve completed the tour!'),
     text: t('You can now use Lisk Hub.<br> If you want to repeat the onboarding, navigate to "More" on the sidebar.'),
